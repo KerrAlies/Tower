@@ -1,0 +1,7 @@
+---
+- name: "Debug"
+  hosts: all
+  tasks:
+    - name: "Debug"
+      debug:
+        msg: "{{ var2 }}"
