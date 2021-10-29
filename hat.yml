@@ -1,0 +1,6 @@
+---
+- name: "play"
+  include: play.yml
+  
+- name: "playbook"
+  include: playbook.yml
